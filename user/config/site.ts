@@ -9,7 +9,7 @@ import Avatar_96_PNG from '$assets/avatar.png?w=96&h=96&imagetools';
 import Avatar_192_PNG from '$assets/avatar.png?w=192&h=192&imagetools';
 import Avatar_512_PNG from '$assets/avatar.png?w=512&h=512&imagetools';
 
-import SiteCover from '$assets/qwer.webp';
+import SiteCover from '$assets/cover.png?format=avif;webp&imagetools';
 
 export const siteConfig: Site.Config = {
   url: 'https://burns.is',
@@ -34,7 +34,7 @@ export const siteConfig: Site.Config = {
     website: 'https://conor-burns.com',
     github: 'https://github.com/Conor-Burns',
     email: 'mail@conor-burns.com',
-    bio: `Designing electronics <br/> ❤️ KiCAD`,
+    bio: `Designing electronics <br/> KiCAD❤️ <br/> Unix stuff`,
   },
 };
 
@@ -83,10 +83,10 @@ export const dateConfig: Site.DateConfig = {
 export const giscusConfig: Giscus.Config = {
   enable: true,
   id: 'giscus-comment',
-  repo: import.meta.env.QWER_GISCUS_REPO,
-  repoId: import.meta.env.QWER_GISCUS_REPO_ID,
-  category: import.meta.env.QWER_GISCUS_CATEGORY,
-  categoryId: import.meta.env.QWER_GISCUS_CATEGORY_ID,
+  repo: 'Conor-Burns/burns.is',
+  repoId: 'R_kgDOLAg7ww',
+  category: 'BlogComments',
+  categoryId: 'DIC_kwDOLAg7w84CcMxOasq',
   mapping: 'pathname',
   reactionsEnabled: '1',
   emitMetadata: '0',
